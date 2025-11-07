@@ -1,0 +1,30 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Documentos de prueba
+input/documentos_pendientes/*.pdf
+output/reportes_pdf/*.pdf
+output/reportes_json/*.json
+output/logs/*.log
+
+# Configuración local
+src/config/configuracion.local.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db

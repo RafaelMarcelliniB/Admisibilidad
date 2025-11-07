@@ -1,0 +1,19 @@
+{
+  "umbral_blanco": 0.98,
+  "umbral_ilegibilidad": 0.60,
+  "umbral_plagio": 0.85,
+  "verificar_ortografia": true,
+  "idioma_ortografia": "es",
+  "formato_fecha": "%Y-%m-%d %H:%M:%S",
+  "directiva_foliacion": {
+    "formato_permitido": "correlativo_numerico",
+    "prefijo_opcional": true,
+    "validar_continuidad": true
+  },
+  "rutas": {
+    "input": "input/documentos_pendientes",
+    "output_pdf": "output/reportes_pdf",
+    "output_json": "output/reportes_json",
+    "logs": "output/logs"
+  }
+}
